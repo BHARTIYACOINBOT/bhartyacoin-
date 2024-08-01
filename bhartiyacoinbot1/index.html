@@ -1,0 +1,38 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Telegram Mini Game</title>
+    <style>
+        /* Add some basic styling to make the game look nice */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .game-container {
+            max-width: 400px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Welcome to My Telegram Mini Game!</h1>
+        <p>Your current balance is: <span id="balance">0</span> coins</p>
+        <button id="tap-and-earn">Tap to earn 10 coins!</button>
+        <button id="collect-combo-card">Collect a combo card!</button>
+        <button id="collect-mining-card">Collect a mining card!</button>
+        <button id="boost">Boost your earnings!</button>
+        <button id="daily-check-in">Daily check-in!</button>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
